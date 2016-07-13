@@ -419,6 +419,7 @@ alert('add active contracts.  Adjust witty messages to put game type later');
 				t_class=cell_css.sci_cell;
 
 			if(p_num>=100){t_sci='100%';}//100+
+			else if(sci_cell.sci==sci_cell.cap){t_sci='100%';p_num=100;}//100=
 			else if(p_num<1){t_sci='0%';}//<0.999
 			else{t_sci=sci_cell.percent+'%';}
 
